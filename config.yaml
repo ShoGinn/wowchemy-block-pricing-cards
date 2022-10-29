@@ -3,8 +3,8 @@ module:
     - source: functions
       target: layouts/partials/blocks/functions
     - source: blocks
-      target: layouts/partials/blocks
+      target: layouts/partials/blocks/v1
       includeFiles: "**.html"
     - source: blocks
-      target: assets/scss/blocks
+      target: assets/scss/blocks/v1
       includeFiles: "**.scss"
